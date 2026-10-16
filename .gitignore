@@ -1,0 +1,24 @@
+# Scans and results are data, not source – never commit them
+import/*
+export/*
+!import/.gitkeep
+!export/.gitkeep
+
+# Image files anywhere in the repo
+*.jp2
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.bmp
+*.webp
+
+# Python / environment
+.venv/
+__pycache__/
+*.pyc
+*.part
+
+# macOS
+.DS_Store
